@@ -134,6 +134,35 @@ This query summarises student count and average CGPA by course. The `LEFT JOIN` 
 
 The setup script drops and recreates the `student` and `course` tables **inside `college_sql_practice`** when rerun. Back up any changes you want to keep before running it again. Review statements before executing any query that changes data, such as `INSERT`, `UPDATE`, or `DELETE`.
 
+
+## Project Screenshots
+
+### 1. Student-Course JOIN
+Combining student records with course information using INNER JOIN.
+
+![Student-Course JOIN](screenshots/01-student-course-join.png)
+
+### 2. Course Enrollment Analysis
+Counting students in each course using LEFT JOIN and GROUP BY.
+
+![Course Enrollment](screenshots/02-course-enrollment-count.png)
+
+### 3. Academic Performance Analysis
+Comparing average CGPA and attendance across courses.
+
+![Course Performance](screenshots/03-course-performance-analysis.png)
+
+### 4. Top Five Students
+Identifying the highest CGPA records using ORDER BY and LIMIT.
+
+![Top Five Students](screenshots/04-top-five-students.png)
+
+### 5. Data Quality Validation
+Identifying missing values using IS NULL conditions.
+
+![Missing Data Validation](screenshots/05-missing-data-validation.png)
+
+
 ## Learning Outcomes
 
 This project provides hands-on practice with relational database querying, joins, aggregation, advanced SQL patterns, and data-quality checks. It is a learning project and does not claim production deployment or real institutional analysis.
